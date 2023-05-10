@@ -7,10 +7,31 @@ $dark-blue: hsl(218, 44%, 22%);
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: $light-gray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
   p {
     font-size: 0.938rem;
   }
+}
+
+#container {
+  border: 1px solid red; // Delete after
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card {
+  border: 1px solid blue; // Delete after
+  background-color: $white;
+  height: 31.25rem;
+  width: 20rem;
+  margin-top: 9.375rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
 }
 
 .attribution {
